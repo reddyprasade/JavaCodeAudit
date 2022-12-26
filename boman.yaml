@@ -8,9 +8,9 @@ SCA:
 SAST:
   language: "semgrep"
   # SAST
-
-#DAST:
-#  type: "WEB" ## API, WEB, WEB-ADV
-#  URL: "http://devapi.boman.ai" 
+  
+DAST:
+  type: "WEB" ## API, WEB, WEB-ADV
+  URL: "http://devapi.boman.ai" 
 
 Secret_Scan: True
