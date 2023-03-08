@@ -39,7 +39,7 @@
     <dependency>
       <groupId>org.apache.karaf.log</groupId>
       <artifactId>org.apache.karaf.log.core</artifactId>
-      <version>4.0.4</version>
+      <version>4.4.3</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
@@ -78,7 +78,7 @@
               org.apache.karaf.log.core;version="[3,5)",
               *
             </Import-Package>
-            <Export-Package />
+            <Export-Package/>
           </instructions>
         </configuration>
       </plugin>
