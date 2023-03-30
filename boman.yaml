@@ -6,11 +6,11 @@ SCA:
   language: "java",
 
 SAST:
-  language: "semgrep"
+  language: "java"
   # SAST
   
 DAST:
   type: "WEB" ## API, WEB, WEB-ADV
-  URL: "http://devapi.boman.ai" 
+  URL: "https://www.cnpanda.net/" 
 
 Secret_Scan: True
